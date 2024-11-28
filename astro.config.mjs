@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-	site: 'https://shkrabov.github.io/reels-finder-docs/',
+	site: 'https://shkrabov.github.io',
 	base: '/reels-finder-docs',
 	integrations: [
 		starlight({

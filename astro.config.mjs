@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
 	site: 'https://username.github.io',
-	base: '/repository-name',
+	base: '/reels-finder-docs-new',
 	integrations: [
 		starlight({
 			title: 'Reels Finder',

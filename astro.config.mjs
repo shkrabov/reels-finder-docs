@@ -2,13 +2,13 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-	site: 'https://username.github.io',
-	base: '/reels-finder-docs-new',
+	site: 'https://shkrabov.github.io/reels-finder-docs/',
+	base: '/reels-finder-docs',
 	integrations: [
 		starlight({
 			title: 'Reels Finder',
 			social: {
-				github: 'https://github.com/username/repository-name',
+				github: 'https://github.com/shkrabov/reels-finder-docs',
 			},
 			sidebar: [
 				{

@@ -12,35 +12,34 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Начало работы',
+					label: 'Введение',
 					items: [
-						{ label: 'Введение', link: '/' },
-						{ label: 'Установка', link: '/getting-started/installation' },
+						{ label: 'Обзор', link: '/' },
 					],
 				},
 				{
-					label: 'Основные функции',
+					label: 'Основные разделы',
 					items: [
 						{ label: 'Поиск', link: '/features/search' },
-						{ label: 'Фильтрация', link: '/features/filters' },
-						{ label: 'Сортировка', link: '/features/sorting' },
+						{ label: 'Подборки', link: '/features/collections' },
+						{ label: 'Избранное', link: '/features/favorites' },
+						{ label: 'Подписки', link: '/features/subscriptions' },
 					],
 				},
 				{
-					label: 'Компоненты',
+					label: 'Управление аккаунтом',
 					items: [
-						{ label: 'Обзор', link: '/components/' },
-						{ label: 'Карточка рила', link: '/components/reel-card' },
-						{ label: 'Поисковая строка', link: '/components/search-bar' },
-						{ label: 'Фильтры', link: '/components/filters' },
+						{ label: 'Авторизация', link: '/features/auth' },
+						{ label: 'Профиль', link: '/features/profile' },
 					],
 				},
 				{
-					label: 'Авторизация',
+					label: 'Общие механизмы',
 					items: [
-						{ label: 'Обзор', link: '/auth/' },
-						{ label: 'Вход', link: '/auth/login' },
-						{ label: 'Регистрация', link: '/auth/registration' },
+						{ label: 'Карточка рила', link: '/common/reel' },
+						{ label: 'Поиск и фильтрация', link: '/common/search' },
+						{ label: 'Уведомления', link: '/common/notifications' },
+						{ label: 'Система подписки', link: '/common/subscription' },
 					],
 				},
 			],

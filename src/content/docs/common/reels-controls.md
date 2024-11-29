@@ -134,3 +134,6 @@ sidebar:
 - Применение фильтров
 - Обновление сортировки
 - Активация подписки
+
+[Сетка рилсов](/reels-finder-docs/common/reels-grid)
+[Карточка рилса](/reels-finder-docs/common/reel)

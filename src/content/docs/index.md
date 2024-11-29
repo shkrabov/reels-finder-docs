@@ -21,16 +21,16 @@ Reels Finder помогает находить и анализировать ree
 
 ### Общие компоненты
 Базовые блоки, используемые во всех разделах:
-- [Шапка](./common/header) - навигация и профиль
-- [Карточка рила](./common/reel) - отображение видео и действия
-- [Управление отображением](./common/reels-controls) - поиск и фильтры
-- [Сетка рилсов](./common/reels-grid) - отображение списков
-- [Ограничения доступа](./common/paywall) - система монетизации
+- [Шапка](/reels-finder-docs/common/header) - навигация и профиль
+- [Карточка рилса](/reels-finder-docs/common/reel) - отображение видео и действия
+- [Управление отображением](/reels-finder-docs/common/reels-controls) - поиск и фильтры
+- [Сетка рилсов](/reels-finder-docs/common/reels-grid) - отображение списков
+- [Ограничения доступа](/reels-finder-docs/common/paywall) - система монетизации
 
 ### Основной функционал
 Описание ключевых разделов сервиса:
-- [Поиск](./features/search) - поиск и анализ рилсов
-- [Подборки](./features/collections) - тематические коллекции
-- [Избранное](./features/favorites) - организация сохраненных рилсов
-- [Подписки](./features/subscriptions) - отслеживание обновлений
-- [Профиль](./features/profile) - управление аккаунтом
+- [Поиск](/reels-finder-docs/features/search) - поиск и анализ рилсов
+- [Подборки](/reels-finder-docs/features/collections) - тематические коллекции
+- [Избранное](/reels-finder-docs/features/favorites) - организация сохраненных рилсов
+- [Подписки](/reels-finder-docs/features/subscriptions) - отслеживание обновлений
+- [Профиль](/reels-finder-docs/features/profile) - управление аккаунтом

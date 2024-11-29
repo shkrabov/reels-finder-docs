@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+	base: '/reels-finder-docs',
 	integrations: [
 		starlight({
 			title: 'Reels Finder Docs',

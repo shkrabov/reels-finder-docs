@@ -37,3 +37,7 @@ pnpm-debug.log*
 
 # Черновики документации
 draft_docs/
+.artefacts/
+
+# Project context file
+PROJECT_CONTEXT.md

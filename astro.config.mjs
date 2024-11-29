@@ -2,47 +2,45 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-	site: 'https://shkrabov.github.io',
-	base: '/reels-finder-docs',
 	integrations: [
 		starlight({
-			title: 'Reels Finder',
-			social: {
-				github: 'https://github.com/shkrabov/reels-finder-docs',
-			},
+			title: 'Reels Finder Docs',
 			sidebar: [
 				{
-					label: 'Введение',
+					label: 'Начало работы',
 					items: [
-						{ label: 'Обзор', link: '/' },
-					],
+						{ label: 'Введение', link: '/' },
+						{ label: 'Контекст проекта', link: '/context' }
+					]
 				},
 				{
-					label: 'Основные разделы',
+					label: 'Общие компоненты',
+					items: [
+						{ label: 'Шапка', link: '/common/header' },
+						{ label: 'Карточка рила', link: '/common/reel' },
+						{ label: 'Управление отображением', link: '/common/reels-controls' },
+						{ label: 'Сетка рилсов', link: '/common/reels-grid' },
+						{ label: 'Ограничения доступа', link: '/common/paywall' }
+					]
+				},
+				{
+					label: 'Основной функционал',
 					items: [
 						{ label: 'Поиск', link: '/features/search' },
 						{ label: 'Подборки', link: '/features/collections' },
 						{ label: 'Избранное', link: '/features/favorites' },
 						{ label: 'Подписки', link: '/features/subscriptions' },
-					],
+						{ label: 'Профиль', link: '/features/profile' }
+					]
 				},
 				{
-					label: 'Управление аккаунтом',
+					label: 'Разработка',
 					items: [
-						{ label: 'Авторизация', link: '/features/auth' },
-						{ label: 'Профиль', link: '/features/profile' },
-					],
-				},
-				{
-					label: 'Общие механизмы',
-					items: [
-						{ label: 'Карточка рила', link: '/common/reel' },
-						{ label: 'Поиск и фильтрация', link: '/common/search' },
-						{ label: 'Уведомления', link: '/common/notifications' },
-						{ label: 'Система подписки', link: '/common/subscription' },
-					],
-				},
-			],
-		}),
-	],
+						{ label: 'План работы', link: '/todo' },
+						{ label: 'Предложения', link: '/proposals' }
+					]
+				}
+			]
+		})
+	]
 });

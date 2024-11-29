@@ -10,17 +10,16 @@ export default defineConfig({
 				{
 					label: 'Начало работы',
 					items: [
-						{ label: 'Введение', link: '/' },
-						{ label: 'Контекст проекта', link: '/context' }
+						{ label: 'Введение', link: '/' }
 					]
 				},
 				{
 					label: 'Общие компоненты',
 					items: [
 						{ label: 'Шапка', link: '/common/header' },
-						{ label: 'Карточка рила', link: '/common/reel' },
 						{ label: 'Управление отображением', link: '/common/reels-controls' },
 						{ label: 'Сетка рилсов', link: '/common/reels-grid' },
+						{ label: 'Карточка рила', link: '/common/reel' },
 						{ label: 'Ограничения доступа', link: '/common/paywall' }
 					]
 				},
@@ -32,13 +31,6 @@ export default defineConfig({
 						{ label: 'Избранное', link: '/features/favorites' },
 						{ label: 'Подписки', link: '/features/subscriptions' },
 						{ label: 'Профиль', link: '/features/profile' }
-					]
-				},
-				{
-					label: 'Разработка',
-					items: [
-						{ label: 'План работы', link: '/todo' },
-						{ label: 'Предложения', link: '/proposals' }
 					]
 				}
 			]
